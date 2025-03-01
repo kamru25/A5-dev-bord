@@ -30,7 +30,7 @@ Array.from(completeButtons).forEach((button) => {
   
       let themeToggle = document.getElementById("theme-toggle");
       let body = document.body;
-      let colors = ["#F4F7FF", "#222831", "#FFD700", "#4CAF50", "#FF5733"];
+      let colors = ["#F4F7FF", "#222831", "#FFD700","#e9dbd9","#05ffa1","#ffc56c", "#fffb96","01cdfe", "#4CAF50", "#FF5733"];
       let currentIndex = 0;
       themeToggle.onclick = function (event) {
       event.preventDefault();
