@@ -4,11 +4,10 @@ let activityLog = document.getElementById("task-log");
 let completeButtons = document.getElementsByClassName("complete-btn");
 Array.from(completeButtons).forEach((button) => {
     button.addEventListener("click", function () {
-        // ✅ Alert দেখানো
-        alert("Congratulations! You have completed a task.");
+        alert("Board Updated Successfully");
         let assignedCount = parseInt(taskAssigned.innerText);
         if (assignedCount > 0) {
-            taskAssigned.innerText = assignedCount - 1;
+        taskAssigned.innerText = assignedCount - 1;
         }
         let completeCount = parseInt(totalCompleteJob.innerText);
         totalCompleteJob.innerText = completeCount + 1;
@@ -18,7 +17,7 @@ Array.from(completeButtons).forEach((button) => {
         newLog.classList.add("text-gray-600", "text-sm", "mt-2");
         activityLog.appendChild(newLog);
         button.disabled = true;
-        button.innerText = "Completed";
+        // button.innerText = "Completed";
         button.classList.add("bg-gray-400");
     });
       document.getElementById("newpage").addEventListener("click", function () {
