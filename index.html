@@ -39,11 +39,14 @@
           <p class="font-bold text-3xl" id="total-complete-job">23</p>
         </div>
         <div>
-          <a href=""><img src="assets/theme-btn.png" alt=""></a>
+          <a id="theme-toggle" href=""><img src=" assets/theme-btn.png" alt=""></a>
         </div>
       </div>
     </div>
   </header>
+
+
+
   <main>
     <section class="w-11/12 mx-auto">
       <div class="flex gap-4">
@@ -58,17 +61,20 @@
                 </div>
               </div>
             </div>
+
             <div class="bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] p-5 rounded-lg space-x-3">
-              <div class="flex items-center">
+              <div id="newpage" class="flex items-center">
                 <img src="assets/board.png" alt="">
-                <h3 class="text-white font-medium text-2xl">Discover Something New Today!</h3>
+                <h3 class="text-white font-medium text-2xl ">Discover Something New Today!</h3>
               </div>
             </div>
+
             <div class="flex items-center p-5 bg-[#F4F7FF] space-x-3">
               <img src="assets/calender.png" alt="">
-              <p>Wed , <span>Jul 28 2025</span></p>
+              <p id="live-time" class="text-xl"></p>
             </div>
           </div>
+
           <div class="grid grid-cols-3 p-2 gap-3 bg-white rounded-lg my-5">
             <div class="bg-[#F4F7FF] rounded-lg p-5 space-y-3">
               <span class="bg-white inline-block p-4 rounded-lg">ShopEase</span>
@@ -77,16 +83,19 @@
                 <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                   and ensure onClick works properly</p>
               </div>
+
               <div class="flex justify-between items-center">
                 <div>
                   <p class="text-sm">Deadline</p>
                   <h4 class="font-medium">21 March 2025</h4>
                 </div>
+
                 <div>
-                  <button class="btn btn-primary complete-btn">Completed</button>
+                  <button id="complete-btn1" class="btn btn-primary complete-btn">Completed</button>
                 </div>
               </div>
             </div>
+
             <div class="bg-[#F4F7FF] rounded-lg p-5 space-y-3">
               <span class="bg-white inline-block p-4 rounded-lg">CloudSync</span>
               <h3 class="font-medium text-2xl task-title">Add Dark Mode </h3>
@@ -104,6 +113,7 @@
                 </div>
               </div>
             </div>
+
             <div class="bg-[#F4F7FF] rounded-lg p-5 space-y-3">
               <span class="bg-white inline-block p-4 rounded-lg">SwiftPay</span>
               <h3 class="font-medium text-2xl task-title">Optimize Home page</h3>
@@ -121,9 +131,10 @@
                 </div>
               </div>
             </div>
+
             <div class="bg-[#F4F7FF] rounded-lg p-5 space-y-3">
               <span class="bg-white inline-block p-4 rounded-lg">Meta</span>
-              <h3 class="font-medium text-2xl task-title">Add new emoji 🤲 </h3>
+              <h3 class="font-medium text-2xl task-title">Add new emoji</h3>
               <div class="bg-white p-5 rounded-lg">
                 <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                   and ensure onClick works properly</p>
@@ -138,6 +149,7 @@
                 </div>
               </div>
             </div>
+
             <div class="bg-[#F4F7FF] rounded-lg p-5 space-y-3">
               <span class="bg-white inline-block p-4 rounded-lg">Google LLC</span>
               <h3 class="font-medium text-2xl task-title">Integrate OpenAI API </h3>
@@ -155,6 +167,7 @@
                 </div>
               </div>
             </div>
+
             <div class="bg-[#F4F7FF] rounded-lg p-5 space-y-3">
               <span class="bg-white inline-block p-4 rounded-lg">Glassdoar</span>
               <h3 class="font-medium text-2xl task-title">Improve Job searching </h3>
@@ -182,7 +195,11 @@
 
     </section>
   </main>
-  <script src="js/script.js"></script>
+
+
+  <script src="jsfile/script.js"></script>
+
+
 </body>
 
 </html>
