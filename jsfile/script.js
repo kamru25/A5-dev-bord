@@ -37,7 +37,7 @@ Array.from(completeButtons).forEach((button) => {
       body.style.backgroundColor = colors[currentIndex];
     };
     
-  function updateTime() {
+      function updateTime() {
       let now = new Date();
       let hours = now.getHours();
       let minutes = now.getMinutes();
@@ -50,8 +50,11 @@ Array.from(completeButtons).forEach((button) => {
       let dateString = now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
       document.getElementById("live-time").innerText = `${dateString} - ${timeString}`;
     }
-    setInterval(updateTime, 1000);
-    updateTime();
+      setInterval(updateTime, 1000);
+      updateTime();
+
+
+
 
 
 });

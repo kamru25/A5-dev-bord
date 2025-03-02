@@ -43,45 +43,39 @@
     <h1 class="text-center text-2xl font-bold ">Blogs</h1>
     <div class="bg-white rounded-lg mt-4 ">
       <h5 class="text-2xl px-4">Question-1: What are the different ways to select an element in the DOM?</h5>
-      <p class="mt-2 px-4">The Document Object Model(DOM)is an important concept in web development, representing the
-        structure of a web
-        page.
-        Using JavaScript, it is possible to select different elements in the DOM and interact with these selected
-        elements.
-        There are several methods for selecting an element in the DOM, which can be useful in different situations.</p>
+      <p class="mt-2 px-4">getElementById("id") নির্দিষ্ট id অনুযায়ী এলিমেন্ট সিলেক্ট করতে।<br>
+        getElementsByClassName("class") নির্দিষ্ট class অনুযায়ী একাধিক এলিমেন্ট সিলেক্ট করতে।<br>
+        getElementsByTagName("tag") নির্দিষ্ট HTML ট্যাগ অনুযায়ী একাধিক এলিমেন্ট সিলেক্ট করতে।<br>
+        querySelector("selector") প্রথম করা CSS সিলেক্টর অনুযায়ী এলিমেন্ট সিলেক্ট করতে।<br>
+        querySelectorAll("selector") নির্দিষ্ট CSS সিলেক্টর অনুযায়ী সব মিল থাকা এলিমেন্ট সিলেক্ট করতে।</p>
     </div>
 
     <div class="bg-white mt-4 rounded-lg">
       <h5 class="text-2xl px-4 ">Question-2: What is the difference between innerHTML, innerText, and textContent ?
       </h5>
-      <p class="mt-2 px-4">DOM manipulation is important in web development, and innerHTML, innerText, and textContent
-        are used to extract text or
-        HTML content from the DOM. Although the work may seem very similar but the functionality may be different, there
-        are
-        some important differences.</p>
+      <p class="mt-2 px-4">innerHTML > HTML ট্যাগসহ নেয় innerText > শুধু দৃশ্যমান টেক্সট নেয় textContent লুকানো
+        টেক্সটসহ সব নেয় কিন্তু HTML
+        ট্যাগ উপেক্ষা করে।</p>
     </div>
     <div class="bg-white mt-4 rounded-lg">
       <h5 class="text-2xl px-4 ">Question-3: What is event delegation in the DOM?
       </h5>
-      <p class="mt-2 px-4">Events are an important concept in web development, which are used to perform specific
-        actions based on various user
-        actions (such as clicking, typing, scrolling, etc.). But sometimes when you have to add event listeners on many
-        elements, it becomes complicated and can affect performance. Event Delegation is used to solve this problem.</p>
+      <p class="mt-2 px-4">Event Delegation হলো একটি মূল (parent) এলিমেন্টে ইভেন্ট যুক্ত করা যাতে তার চাইল্ড
+        এলিমেন্টগুলোর ইভেন্ট হ্যান্ডল করা
+        যায়।</p>
     </div>
     <div class="bg-white mt-4 rounded-lg">
       <h5 class="text-2xl px-4 ">Question-4: What is event bubbling in the DOM?
       </h5>
-      <p class="mt-2 px-4">Events are an important topic in web development, which are created to describe various user
-        actions such as clicking,
-        typing, scrolling lines. When an event occurs, it can appear in different layer(s) of the DOM.</p>
+      <p class="mt-2 px-4">Event Bubbling হলো যখন একটি চাইল্ড এলিমেন্টে ইভেন্ট ট্রিগার হলে সেটি তার প্যারেন্ট ও উপরের
+        এলিমেন্টগুলোতে ধাপে ধাপে
+        পৌঁছে যায়।</p>
     </div>
-    <div class="bg-white mt-4 rounded-lg mb-12 ">
+    <div class="bg-white mt-4 rounded-lg ">
       <h5 class="text-2xl px-4 ">Question-5: How do you create, add, and remove elements using JavaScript?
       </h5>
-      <p class="mt-2 px-4 ">In web development, the DOM (Document Object Model) is the structure of a webpage that
-        can be
-        modified using JavaScript.
-        You can create new elements, add and remove existing elements using JavaScript.</p>
+      <p class="mt-2 px-4 ">createElement(), appendChild(), insertBefore(), removeChild(), এবং remove() ব্যবহার করে
+        এলিমেন্ট তৈরি, যোগ ও মুছা যায়।</p>
     </div>
 
 
