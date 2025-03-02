@@ -17,7 +17,6 @@ Array.from(completeButtons).forEach((button) => {
         newLog.classList.add("text-gray-600", "text-sm", "mt-2");
         activityLog.appendChild(newLog);
         button.disabled = true;
-        // button.innerText = "Completed";
         button.classList.add("bg-gray-400");
     });
       document.getElementById("newpage").addEventListener("click", function () {
@@ -53,10 +52,8 @@ Array.from(completeButtons).forEach((button) => {
       setInterval(updateTime, 1000);
       updateTime();
 
-
-
-
-
+    
+    
 });
 
 
